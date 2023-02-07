@@ -1,0 +1,11 @@
+
+<h1 class="login0"> Gestão de Usuários</h1>
+
+{{#each posts}}
+<div id="lista">
+<h1>Nome: {{nome}} {{sobrenome}}</h1><br>
+<h1>Login: {{login}}</h1><br>
+<h1>Senha: {{senha}}</h1>
+<a href="/adm/{{id}}"><button type="submit">Exluir usuário do sistema.</button></a>
+</div>
+{{/each}}
